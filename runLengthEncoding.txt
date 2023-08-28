@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int compress(vector<char>& chars) {
+      int ans = 0;
+      int i=0;
+
+        // iterate through input vector using i pointer
+        while( i < chars.size()) {
+            char letter = chars[i]; // put the current character being compressed into letter
+            int count = 0; // tracker to keep the count of consecutive occurrences of letter
+…
+        // return length of compressed vector
+        return ans;
+    }
+};
